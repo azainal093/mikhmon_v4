@@ -22,5 +22,6 @@ StandardError=journal
 WantedBy=multi-user.target
 EOF
 sudo systemctl daemon-reload
-sudo systemctl enable --now mikhmonv4.service
-sudo systemctl status mikhmonv4.service --no-pager
+sudo systemctl enable --now mikhmon.service
+
+sudo systemctl status mikhmon.service --no-pager
